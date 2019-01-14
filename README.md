@@ -12,8 +12,9 @@ Example:
 from stonesthrow import stonesthrow
 server = "anything" #make a server address
 data = "Data I want to send"
-stonesthrow.sendData(server, data) #Send data to specified address
-myResp = stonesthrow.getData(server) # Get data from specified address
+jsonObj = "objLoc" #Json object where data will be stored
+stonesthrow.sendData(server, data, jsonObj) #Send data to specified address
+myResp = stonesthrow.getData(server, jsonObj) # Get data from specified address and specified json variable
 print(myResp) # Print data found
 
 ```
