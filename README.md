@@ -3,7 +3,7 @@ A rudimentary peer-to-peer API for sending slow data between devices.
 
 ## Installation
 ```bash
-pip install stonesthrow
+pip3 install stonesthrow
 ```
 
 ## Usage
