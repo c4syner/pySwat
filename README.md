@@ -1,23 +1,20 @@
-# Stonesthrow
-A rudimentary peer-to-peer API for sending slow data between devices.
-
-## Installation
-```bash
-pip3 install stonesthrow
-```
-
-## Usage
-Example: 
+# pySwat
+### A simple script that will automatically search for errors when programming.
+## Installation:
+`pip install pySwat`
+## Usage:
 ```python
-from stonesthrow import stonesthrow
-server = "anything" #make a server address
-data = "Data I want to send"
-jsonObj = "objLoc" #Json object where data will be stored
-stonesthrow.sendData(server, data, jsonObj) #Send data to specified address
-myResp = stonesthrow.getData(server, jsonObj) # Get data from specified address and specified json variable
-print(myResp) # Print data found
+import sys
+from pySwat import *
+try:
+#Your Code in this try block
+
+
+
+
+#End your code
+except: # On error call pySwat
+    searchError(str(sys.exc_info()[1]))
 
 ```
- 
- 
 
