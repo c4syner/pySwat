@@ -5,7 +5,7 @@
 ## Usage:
 ```python
 import sys
-from codesolver import *
+from pySwat import *
 try:
 #Your Code in this try block
 
