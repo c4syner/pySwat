@@ -7,11 +7,10 @@ setup(
   description = 'A simple script to automatically search Stack Overflow for coding errors',   # Give a short description about your library
   author = 'Cliff Syner',                   # Type in your name
   url = 'https://github.com/c4syner/pySwat',   # Provide either the link to your github or to your website
-  download_url = 'https://github.com/c4syner/pySwat/archive/v3.0-alpha.tar.gz',    # I explain this later on
+  download_url = 'https://github.com/c4syner/pySwat/archive/v4.0-alpha.tar.gz',    # I explain this later on
   keywords = ['API', 'DEBUGGING', 'PROGRAMMING'],   # Keywords that define your package best
   install_requires=[            # I get to this in a second
           'gsearch',
-          'webbrowser',
       ],
   classifiers=[
     'Development Status :: 3 - Alpha',      # Chose either "3 - Alpha", "4 - Beta" or "5 - Production/Stable" as the current state of your package
